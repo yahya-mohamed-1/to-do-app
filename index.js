@@ -4,6 +4,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const myDiv = document.querySelector(".container");
   const myUl = document.createElement("ul");
 
+  myInput.focus();
+
   // Add submit event to form
   myForm.addEventListener("submit", function (e) {
     e.preventDefault();
@@ -27,5 +29,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Clear the input field after adding the task
     myInput.value = "";
+    myInput.focus();
   });
 });
