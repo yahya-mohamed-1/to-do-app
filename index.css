@@ -1,0 +1,65 @@
+body {
+  background-image: url("./images/pramod-tiwari-VlgYg9QZd0E-unsplash.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  margin: 0;
+  padding: 0;
+}
+
+.heading-one {
+  color: white;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.container {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.9);
+  width: 90%;
+  max-width: 500px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 30px 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  overflow: hidden; /* Prevents content overflow */
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+}
+
+.form {
+  display: inline;
+  justify-content: center;
+  align-items: center;
+}
+
+.my-input {
+  width: 70%;
+  padding: 15px;
+  border-radius: 15px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  box-sizing: border-box;
+}
+
+.my-button {
+  padding: 15px;
+  border-radius: 15px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.my-button:hover {
+  background-color: #0056b3;
+}
+
+.footer {
+  text-align: center;
+  margin-top: auto;
+}
