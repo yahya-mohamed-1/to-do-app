@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const myForm = document.querySelector("form");
   const myInput = document.querySelector("input");
   const myDiv = document.querySelector(".container");
-  const myUl = document.createElement("ul");
+  const myOl = document.createElement("ol");
 
   // Add focus to input
   myInput.focus();
@@ -23,8 +23,8 @@ document.addEventListener("DOMContentLoaded", function () {
       e.target.remove();
     });
 
-    myUl.appendChild(myLi);
-    myDiv.appendChild(myUl);
+    myOl.appendChild(myLi);
+    myDiv.appendChild(myOl);
     document.body.append(myDiv);
     console.log(myInputValue);
 
