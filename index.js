@@ -23,6 +23,7 @@ document.addEventListener("DOMContentLoaded", function () {
       e.target.remove();
     });
 
+    // Append li to ol, ol to div, and div to body
     myOl.appendChild(myLi);
     myDiv.appendChild(myOl);
     document.body.append(myDiv);
